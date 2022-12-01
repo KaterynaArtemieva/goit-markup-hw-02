@@ -11,10 +11,10 @@ body {
   color: var(--main-color);
 }
 /* Шапка */
-a {
+.no-decor {
   text-decoration: none;
 }
-li {
+.no-style-type {
   list-style-type: none;
 }
 
@@ -38,12 +38,14 @@ li {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--main-color);
 }
 .link-nav {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 .link-nav:hover {
   color: var(--second-color);
@@ -77,6 +79,7 @@ li {
   background-color: var(--main-color);
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.19;
@@ -115,7 +118,7 @@ li {
 }
 /* Команда */
 .team {
-    background-color: var(--cloud-color);
+  background-color: var(--cloud-color);
 }
 /* Футер */
 
@@ -142,6 +145,7 @@ li {
 /* Страница портфолио */
 /* Фильтры */
 .filters-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
